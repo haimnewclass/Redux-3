@@ -15,7 +15,7 @@ export const ResetAction=()=>{
 }
 
 // Reducer
-export const reducerCount=(state,action)=>{
+export const reducerCounter=(state,action)=>{
 
     switch(action.type)
     {
@@ -34,6 +34,3 @@ export const reducerCount=(state,action)=>{
     }
 
 }
-
-//Store
-export const store = createStore(reducerCount,window._REDUX_DEVTOOLS_EXTENSION_ && window._REDUX_DEVTOOLS_EXTENSION_());
